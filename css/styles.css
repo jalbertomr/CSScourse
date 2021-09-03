@@ -1,18 +1,25 @@
-body {
-    background-color: lightskyblue;
-    font-size: 16px;
-}
-
-div {
-    background-color: #AAA;
-    font-size: 20px; 
-    width: 100%;
+a {
+  background: cadetblue;
+  border: 1px solid rgb(6, 112, 116);
+  /*width: 100%;*/
+  display: inline-block;
 }
 
 p {
-    font-size: 1em;
+  background: cornflowerblue;
+  width: 200px;
+  display: inline-block;
 }
 
-h1 {
-    color: #FE3;
+div {
+  width: 300px;
+  /*height: 120px;*/
+  background: hsl(216, 65%, 73%);
+  margin: 10px 50px;
+  padding: 10px 15px 20px 30px;
+  border: 10px solid rgb(50, 107, 212);
+  border-right: 20px solid rgb(64, 117, 214);
+  border-bottom: 30px solid rgb(91, 136, 219);
+  border-left: 40px solid rgb(141, 165, 211);
+  display: inline-block;
 }
